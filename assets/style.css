@@ -1,0 +1,45 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: sans-serif;
+	height: 100vh;
+	margin: 0;
+	/*background-color: #afe5f6; */
+    background: linear-gradient(135deg, #080c63, #0a032e, black );
+    color:white;
+}
+
+div {
+	text-align: center;
+}
+
+img {
+	max-width: 400px;
+    max-height: 400px;
+	border-radius: 30px;
+}
+
+button {
+	border: 0;
+	font-size: 1.2rem;
+	font-weight: 500;
+	padding: 16px;
+	background: #007FFF;
+	color: white;
+	margin: 20px 0;
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+	background: rgb(0, 41, 163);
+}
+
+#assinatura {
+    margin-top: 0px;
+    text-align: right;
+    font-size:small;
+  }
+
+/* https://www.cin.ufpe.br/~js/tabeladecores.htm */
